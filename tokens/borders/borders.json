@@ -1,0 +1,12 @@
+{
+  "borders": {
+    "BORDER_SIZE_SM": { "value": 1 },
+    "BORDER_SIZE_LG": {"value": 2},
+    "BORDER_SIZE_XL": {"value": 3},
+    "BORDER_RADIUS_XS": {"value": 4},
+    "BORDER_RADIUS_SM": {"value": 8},
+    "BORDER_RADIUS_MD": {"value": 12},
+    "BORDER_RADIUS_LG": {"value": 24},
+    "BORDER_RADIUS_PILL": {"value": 40}
+  }
+}

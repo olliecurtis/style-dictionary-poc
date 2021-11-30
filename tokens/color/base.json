@@ -1,0 +1,18 @@
+{
+  "color": {
+    "base": {
+      "gray": {
+        "tint_01" : { "value": "#444560" },
+        "tint_02" : { "value": "#68697F" },
+        "tint_03" : { "value": "#8f90a0" },
+        "tint_04" : { "value": "#B2B2BF" },
+        "tint_05" : { "value": "#CDCDD7" },
+        "tint_06" : { "value": "#DDDDE5" },
+        "tint_07" : { "value": "#F1F2F8" }
+      },
+      "red": { "value": "#FF0000" },
+      "green": { "value": "#00FF00" },
+      "white": { "value": "#FFFFFF" }
+    }
+  }
+}

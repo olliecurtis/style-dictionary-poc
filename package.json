@@ -1,0 +1,15 @@
+{
+  "name": "poc-styles",
+  "version": "0.0.1",
+  "description": "poc for generating styles",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ollie",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "style-dictionary": "^3.0.3"
+  }
+}

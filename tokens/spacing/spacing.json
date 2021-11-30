@@ -1,0 +1,34 @@
+{
+  "size": {
+    "spacing": {
+      "SPACING_SM": {
+        "value": 4,
+        "comment": "Small spacing"
+      },
+      "SPACING_MD": {
+        "value": 8,
+        "comment": "Medium spacing"
+      },
+      "SPACING_BASE": {
+        "value": 16,
+        "comment": "Base spacing"
+      },
+      "SPACING_LG": {
+        "value": 24,
+        "comment": "Large spacing"
+      },
+      "SPACING_XL": {
+        "value": 32,
+        "comment": "Extra large spacing"
+      },
+      "SPACING_XXL": {
+        "value": 40,
+        "comment": "Extra extra large spacing"
+      },
+      "SPACING_NONE": {
+        "value": 0,
+        "comment": "No spacing"
+      }
+    }
+  }
+}
