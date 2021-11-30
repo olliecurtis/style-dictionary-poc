@@ -1,6 +1,6 @@
 # Basic Style Dictionary
 
-This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
+This example code is bare-bones to show you what this framework can do. To get started clone the repository and run the following command:
 ```bash
 npm i
 npm run build
@@ -17,6 +17,9 @@ Running `style-dictionary build` for the first time to generate build artifacts.
 
 scss
 ✔︎  build/scss/_variables.scss
+
+js
+✔︎ build/js/base.es6.js
 
 android
 ✔︎  build/android/font_dimens.xml
@@ -50,6 +53,10 @@ Good for you! You have now built your first style dictionary! Moving on, take a 
 │       ├── font.json
 │   ├── size/
 │       ├── font.json
+│   ├── borders/
+│       ├── borders.json
+│   ├── spacing/
+│       ├── spacing.json
 ├── build/
 │   ├── android/
 │      ├── font_dimens.xml
@@ -59,6 +66,8 @@ Good for you! You have now built your first style dictionary! Moving on, take a 
 │      ├── StyleDictionarySize.kt
 │   ├── scss/
 │      ├── _variables.scss
+│   ├── js/
+│      ├── base.es6.js
 │   ├── ios/
 │      ├── StyleDictionaryColor.h
 │      ├── StyleDictionaryColor.m
@@ -70,7 +79,7 @@ Good for you! You have now built your first style dictionary! Moving on, take a 
 │      ├── StyleDictionarySize.swift
 ```
 
-If you open `config.json` you will see there are 5 platforms defined: scss, android, compose, ios, and ios-swift. Each platform has a transformGroup, buildPath, and files. The buildPath and files of the platform should match up to the files what were built. The files built should look like these:
+If you open `config.json` you will see there are 6 platforms defined: scss, js (es6), android, compose, ios, and ios-swift. Each platform has a transformGroup, buildPath, and files. The buildPath and files of the platform should match up to the files what were built. The files built should look like these:
 
 **Android**
 ```xml
