@@ -9,6 +9,14 @@
         "format": "scss/variables"
       }]
     },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [{
+        "destination": "base.es6.js",
+        "format": "javascript/es6"
+      }]
+    },
     "android": {
       "transformGroup": "android",
       "buildPath": "build/android/",
