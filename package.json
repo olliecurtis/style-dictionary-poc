@@ -10,6 +10,6 @@
   "author": "Ollie",
   "license": "Apache-2.0",
   "dependencies": {
-    "style-dictionary": "^4.3.2"
+    "style-dictionary": "^5.1.1"
   }
 }
